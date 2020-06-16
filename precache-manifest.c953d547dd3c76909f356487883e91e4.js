@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3c408e234f49fe282522d5b0b6b5726c",
+    "revision": "ceedaef72e040e946be5a9c46b37e421",
     "url": "/snakes-and-ladders/index.html"
   },
   {
-    "revision": "b33142e43c27668ec10e",
+    "revision": "ba9e98805cf8fbe0b472",
     "url": "/snakes-and-ladders/static/css/main.a34e635c.chunk.css"
   },
   {
-    "revision": "47ed2b98085dce8d9ef2",
-    "url": "/snakes-and-ladders/static/js/2.c9e5bf3d.chunk.js"
+    "revision": "d94386479ee518317c15",
+    "url": "/snakes-and-ladders/static/js/2.c52202f3.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/snakes-and-ladders/static/js/2.c9e5bf3d.chunk.js.LICENSE.txt"
+    "url": "/snakes-and-ladders/static/js/2.c52202f3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b33142e43c27668ec10e",
-    "url": "/snakes-and-ladders/static/js/main.6529a70f.chunk.js"
+    "revision": "ba9e98805cf8fbe0b472",
+    "url": "/snakes-and-ladders/static/js/main.2e41814e.chunk.js"
   },
   {
     "revision": "84a43e439b6656e2cd9a",
