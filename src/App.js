@@ -38,7 +38,7 @@ class App extends Component {
 
         console.log('New position:', this.state.currentPosition);
 
-        this.setState(prevState => ({output: `${prevState.output} \n New position: ${this.state.currentPosition}`}));
+        this.setState(prevState => ({ output: `${prevState.output} \n New position: ${this.state.currentPosition}` }));
       }, (500 * diceNumber) + 500);
     }
   }
@@ -124,14 +124,22 @@ class App extends Component {
 
   // On form submit
   onFormSubmit = (position, diceOutcome) => {
-    this.goToPosition(position);
-    this.onDiceTossed(diceOutcome);
+    if (position + diceOutcome <= 100) {
+      this.goToPosition(position);
+      this.onDiceTossed(diceOutcome);
 
-    console.log('Current position: ', position);
-    console.log('Dice Outcome: ', diceOutcome);
+      console.log('Current position: ', position);
+      console.log('Dice Outcome: ', diceOutcome);
 
+      this.setState({ output: `Current position: ${position} \n Dice Outcome: ${diceOutcome}` });
+    } else {
+      this.goToPosition(position);
 
-  this.setState({output: `Current position: ${position} \n Dice Outcome: ${diceOutcome}`});
+      console.log('Current position: ', position);
+      console.log('Dice Outcome: ', diceOutcome);
+
+      this.setState({ output: `Current position: ${position} \n Dice Outcome: ${diceOutcome} \n New position: ${position}` });
+    }
   }
 
   // Reset app
