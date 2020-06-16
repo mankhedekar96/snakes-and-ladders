@@ -120,9 +120,9 @@ class App extends Component {
   }
 
   // On form submit
-  onFormSubmit = async (position, diceOutcome) => {
+  onFormSubmit = (position, diceOutcome) => {
     if (position + diceOutcome <= 100) {
-      await this.goToPosition(position);
+      this.goToPosition(position);
       this.onDiceTossed(diceOutcome);
 
       console.log('Current position: ', position);
@@ -130,7 +130,7 @@ class App extends Component {
 
       this.setState({ output: `Current position: ${position} \n Dice Outcome: ${diceOutcome}` });
     } else {
-      await this.goToPosition(position);
+      this.goToPosition(position);
 
       console.log('Current position: ', position);
       console.log('Dice Outcome: ', diceOutcome);
