@@ -1,0 +1,23 @@
+.form {
+    display: flex;
+}
+
+.input-area {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+}
+
+.input-area input {
+    margin: 5px 10px;
+}
+
+.submit-btn, .reset-btn {
+    background: none;
+    border: 1px solid gray;
+    font-size: 115%;
+}
+
+.dice-container {
+    width: 16vh;
+}
