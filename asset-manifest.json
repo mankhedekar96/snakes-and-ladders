@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/snakes-and-ladders/static/css/main.a34e635c.chunk.css",
-    "main.js": "/snakes-and-ladders/static/js/main.bff81ad8.chunk.js",
-    "main.js.map": "/snakes-and-ladders/static/js/main.bff81ad8.chunk.js.map",
+    "main.js": "/snakes-and-ladders/static/js/main.e294a5ae.chunk.js",
+    "main.js.map": "/snakes-and-ladders/static/js/main.e294a5ae.chunk.js.map",
     "runtime-main.js": "/snakes-and-ladders/static/js/runtime-main.2e130ab5.js",
     "runtime-main.js.map": "/snakes-and-ladders/static/js/runtime-main.2e130ab5.js.map",
     "static/js/2.c52202f3.chunk.js": "/snakes-and-ladders/static/js/2.c52202f3.chunk.js",
     "static/js/2.c52202f3.chunk.js.map": "/snakes-and-ladders/static/js/2.c52202f3.chunk.js.map",
     "index.html": "/snakes-and-ladders/index.html",
-    "precache-manifest.09f4c1c4d7b4041ee5353827b938f530.js": "/snakes-and-ladders/precache-manifest.09f4c1c4d7b4041ee5353827b938f530.js",
+    "precache-manifest.6e93c9812d66cfde046ce09b87809f4d.js": "/snakes-and-ladders/precache-manifest.6e93c9812d66cfde046ce09b87809f4d.js",
     "service-worker.js": "/snakes-and-ladders/service-worker.js",
     "static/css/main.a34e635c.chunk.css.map": "/snakes-and-ladders/static/css/main.a34e635c.chunk.css.map",
     "static/js/2.c52202f3.chunk.js.LICENSE.txt": "/snakes-and-ladders/static/js/2.c52202f3.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.2e130ab5.js",
     "static/js/2.c52202f3.chunk.js",
     "static/css/main.a34e635c.chunk.css",
-    "static/js/main.bff81ad8.chunk.js"
+    "static/js/main.e294a5ae.chunk.js"
   ]
 }
