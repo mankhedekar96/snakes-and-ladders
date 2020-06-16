@@ -111,21 +111,18 @@ class App extends Component {
 
     bottom -= left === 0 ? 1 : 0;
 
-
-    this.setState({ currentPosition: position, currentBottom: bottom * 10 });
-
     if ([0, 2, 4, 6, 8].includes(bottom)) {
-      this.setState({ move: 'right', currentLeft: (left === 0 ? 9 : (left - 1)) * 10 });
+      this.setState({ currentPosition: position, currentBottom: bottom * 10, move: 'right', currentLeft: (left === 0 ? 9 : (left - 1)) * 10 });
 
     } else {
-      this.setState({ move: 'left', currentLeft: (left === 0 ? 0 : (10 - left)) * 10 });
+      this.setState({ currentPosition: position, currentBottom: bottom * 10, move: 'left', currentLeft: (left === 0 ? 0 : (10 - left)) * 10 });
     }
   }
 
   // On form submit
-  onFormSubmit = (position, diceOutcome) => {
+  onFormSubmit = async (position, diceOutcome) => {
     if (position + diceOutcome <= 100) {
-      this.goToPosition(position);
+      await this.goToPosition(position);
       this.onDiceTossed(diceOutcome);
 
       console.log('Current position: ', position);
@@ -133,7 +130,7 @@ class App extends Component {
 
       this.setState({ output: `Current position: ${position} \n Dice Outcome: ${diceOutcome}` });
     } else {
-      this.goToPosition(position);
+      await this.goToPosition(position);
 
       console.log('Current position: ', position);
       console.log('Dice Outcome: ', diceOutcome);
