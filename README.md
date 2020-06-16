@@ -1,3 +1,10 @@
+# Game developed using ReactJS library
+- Start the game.
+- Input your current position and dice outcome.
+- Receive the Output.
+- You can reset the game.
+- You can add more snakes and ladder into `config.js` file.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
