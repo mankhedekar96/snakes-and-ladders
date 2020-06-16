@@ -38,7 +38,7 @@ class App extends Component {
 
         console.log('New position:', this.state.currentPosition);
 
-        this.setState(prevState => ({output: `${prevState.output} \n New position:: ${this.state.currentPosition}`}));
+        this.setState(prevState => ({output: `${prevState.output} \n New position: ${this.state.currentPosition}`}));
       }, (500 * diceNumber) + 500);
     }
   }
